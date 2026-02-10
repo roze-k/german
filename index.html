@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de" wm-editor-extension-available="true">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datumsformate Vorschau</title>
+    <style>
+        body {
+            /* Optimized for German/European system fonts */
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f8f8;
+            color: #666;
+        }
+        .format-code {
+            font-family: monospace;
+            color: #d63384;
+            background: #fdf2f8;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Datumsformat-Demonstration (Dates in German Context)</h1>
+    <p>Nachfolgend finden Sie Beispiele für gängige Datumsformate:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Format-Typ (Format Type)</th>
+                <th>Beispiel (Example)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Deutsch gemischtes Format</td>
+                <td><strong>Juli 17, 2024</strong></td>
+            </tr>
+            <tr>
+                <td><span class="format-code">dd/mm/yyyy</span></td>
+                <td>17/07/2024</td>
+            </tr>
+            <tr>
+                <td><span class="format-code">mm/dd/yyyy</span></td>
+                <td>07/17/2024</td>
+            </tr>
+            <tr>
+                <td><span class="format-code">yyyy/mm/dd</span></td>
+                <td>2024/07/17</td>
+            </tr>
+            <tr>
+                <td><span class="format-code">yyyy-mm-dd</span> (Standard-ISO)</td>
+                <td>2024-07-17</td>
+            </tr>
+            <tr>
+                <td><span class="format-code">dd MMMM YYYY</span></td>
+                <td>17 Juli 2024</td>
+            </tr>
+            <tr>
+                <td><span class="format-code">DD-MMM-YYYY</span></td>
+                <td>17-Jul-2024</td>
+            </tr>
+            <tr>
+                <td><span class="format-code">MM-DD-YYYY</span></td>
+                <td>07-17-2024</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
